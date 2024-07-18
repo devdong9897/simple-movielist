@@ -1,0 +1,17 @@
+body {
+  background-color: rgb(59, 59, 59);
+}
+.order-button {
+  margin-left: 40px;
+}
+.order {
+  margin-top: 20px;
+  margin-left: 10px;
+  width: 100px;
+  height: 30px;
+  border: 1px solid rgb(156, 49, 238);
+  border-radius: 15px;
+  background: none;
+  cursor: pointer;
+  background: #fff;
+}
