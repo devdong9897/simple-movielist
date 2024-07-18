@@ -1,5 +1,5 @@
-export async function getReviewApi({ order = "createdAt" }) {
-  const query = `order=${order}`;
+export async function getReviewApi({ order = "createdAt", search = "" }) {
+  const query = `order=${order}&search=${search}`;
   const response = await fetch(
     `https://learn.codeit.kr/api/film-reviews?${query}`
   );
